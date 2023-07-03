@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  /* background-image: url(../design/desktop-design.jpg); */
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  /* background-size: 100vw 100vh;
+  background-repeat: no-repeat; */
+}
+
+.main {
+  background-color: #fff;
+  height: 62.23%;
+  width: 22.08%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 17px;
+  /* opacity: 0.6; */
+  box-shadow: 0px 15px 25px -3px #c5d8ee;
+}
+img {
+  width: 272px;
+  height: 239px;
+  margin-top: 13px;
+  border-radius: 9px;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 0.99px;
+  word-spacing: 0px;
+  color: hsl(218, 44%, 22%);
+  width: 270px;
+  margin-top: 18px;
+  line-height: 24px;
+  padding-left: 10px;
+}
+
+.header .Frist {
+  margin-left: 12px;
+}
+
+.header .Secound {
+  margin-left: 6px;
+  margin-top: -2px;
+  word-spacing: -1px;
+}
+
+.body {
+  font-weight: 00;
+  font-size: 13px;
+  letter-spacing: 0px;
+  word-spacing: 3px;
+  color: hsl(220, 15%, 55%);
+  width: 228px;
+  margin-top: 12px;
+  margin-left: 8px;
+}
+
+.body .Frist {
+  margin-left: -6px;
+  word-spacing: 4px;
+}
+
+.body .Secound {
+  margin-left: 69px;
+  word-spacing: 3px;
+}
